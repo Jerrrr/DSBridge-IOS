@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "dsbridge.h"
 #import "JsApiTest.h"
 
-@interface ViewController : UIViewController <WKNavigationDelegate>
+@interface ViewController : UIViewController
 {
     JsApiTest *jsApi;
 }
